@@ -1,11 +1,24 @@
-.header {
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
+.header-container,
 .hero,
 .footer {
     background:#1F2937;
+}
+
+.header-container {    
+    gap: 8px;
+    display: flex;
+}
+
+.header {
+    display:flex;
+    flex: 1;
+}
+
+.header-link {
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 1
 }
 
 .hero {
@@ -15,7 +28,7 @@
 }
 
 .hero.secondary,
-.header.link {
+.header-link {
     color: #E5E7EB;
     font-size: 24px; 
 }
@@ -29,6 +42,21 @@
     width: 500px;
 }
 
+.container {
+    height: 200px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;    
+}
+
 .button,
 .call {
     color: #3882F6;
@@ -40,30 +68,16 @@ h3 {
     font-weight: bolder;
 }
 
+.quote-container {
+    display: flex;
+}
+
 .quote {
     background: #E5E7EB;
     font: 36px;
     font-style: italic;
     color: #1F2937;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
     padding: 100px;
-    inline-size: 250px;
-}
-
-.flex-container {
-    background: lightblue;
-    padding: 16px;
-    border: 4px solid blue;
-    gap: 8px;
-    display: flex;
-}
-
-.flex-container div {
-    background: peachpuff;
-    border: 4px solid salmon;
-    height: 48px;
     flex: 1;
-    padding: 4px;
 }
