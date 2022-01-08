@@ -1,4 +1,9 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
 /* This removes the white space surrounding all of the flex boxes. */
+
 html, body {
     margin:0;
     padding:0
@@ -36,7 +41,8 @@ a {
     text-align: center;
     list-style: none;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 5px;
+
 }
 
 .nav-links a {
